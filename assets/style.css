@@ -5,11 +5,12 @@
 }
 
 :root {
-    --vscode: #252934;   
+    --vscode: #252934;
+    --body: white;   
 }
 
 body {
-    background-color: #252934;
+    background-color: var(--body);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
@@ -46,7 +47,20 @@ a{
 
 p {
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    outline: 2px solid var(--vscode);
+    outline-offset: 2px;
+    color: var(--vscode);
 }
+
+p:hover {
+    box-shadow: 0px 0px 10px var(--vscode);
+    text-align: center;
+}
+
+
 
 .backdrop {
     height: 300px;
@@ -59,21 +73,50 @@ p {
 
 /* We are now creating the main section of the webpage below  */
 
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 15px;
     margin-right: 15px;
     
-}
-
-.topics {
-    justify-content: center;
-}
+} */
+/* ^^^this can be deleted most likely ^^^ */
 
 .topic-column {
     flex: 1 0 100%;
     padding: 15px;
     margin: 15px;
+}
+
+.topic-header {
+    text-align: center;
+    color: var(--vscode);
+}
+
+.image-link {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section {
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #252934;
+    color: white;
 }
