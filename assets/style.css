@@ -119,6 +119,7 @@ article {
 @media screen and (minwidth: 992px) {
     .flex-image-links {
         flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
