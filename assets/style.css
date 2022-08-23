@@ -6,7 +6,8 @@
 
 :root {
     --vscode: #252934;
-    --body: white;   
+    --body: white;
+    --oddtopic: #e6e6e6;   
 }
 
 body {
@@ -43,6 +44,7 @@ body {
 
 a{
     color: white;
+    text-decoration: none;
 }
 
 p {
@@ -53,11 +55,11 @@ p {
     outline: 2px solid var(--vscode);
     outline-offset: 2px;
     color: var(--vscode);
+    text-align: center;
 }
 
 p:hover {
     box-shadow: 0px 0px 10px var(--vscode);
-    text-align: center;
 }
 
 
@@ -73,14 +75,14 @@ p:hover {
 
 /* We are now creating the main section of the webpage below  */
 
-/* .row {
+.row 
+.topics{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 15px;
     margin-right: 15px;
-    
-} */
+}
 /* ^^^this can be deleted most likely ^^^ */
 
 .topic-column {
@@ -94,10 +96,34 @@ p:hover {
     color: var(--vscode);
 }
 
-.image-link {
+.image-links:hover {
+    box-shadow: 0 0 5px #252934;
+    transition: all 0.3s ease-in-out;
     padding: 5px;
     margin: 5px;
 }
+
+.flex-image-links {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    padding: 20px;
+    margin: 15px;
+    justify-content: center;
+}
+
+article {
+    background-color: var(--oddtopic);
+}
+
+@media screen and (minwidth: 992px) {
+    .flex-image-links {
+        flex: 0 0 50%;
+    }
+}
+
+
+
 
 
 
@@ -119,4 +145,5 @@ p:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #252934;
     color: white;
+    text-align: center;
 }
