@@ -21,6 +21,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--vscode);
     color: white;
+    padding: 55px;
 }
 
 .header h1 {
@@ -69,9 +70,9 @@ p {
 }
 
 
-p:hover {
+/* p:hover {
     box-shadow: 0px 0px 10px var(--vscode);
-}
+} */
 
 
 
@@ -91,12 +92,13 @@ p:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    margin-bottom: 25px;
     background-image: url("../assets/images/Selfie.jpg");
     background-size: cover;
     background-position: center;
 }
 
-article {
+.article {
     background-color: var(--oddtopic);
 }
 /* We are now creating the main section of the webpage below  */
@@ -111,15 +113,17 @@ article {
 } */
 /* ^^^this can be deleted most likely ^^^ */
 
-.topic-column {
-    flex: 1 0 100%;
+/* .topic-column {
+    flex: 0 0 50%;
     padding: 15px;
     margin: 15px;
-}
+} */
 
 .topic-header {
     text-align: center;
     color: var(--vscode);
+    font-size: 25px;
+    padding: 10px;
 }
 
 .image-links:hover {
@@ -135,7 +139,7 @@ article {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
-    padding: 20px;
+    padding: 30px;
     margin: 15px;
     justify-content: center;
 }
