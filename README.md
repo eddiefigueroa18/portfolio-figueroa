@@ -17,7 +17,7 @@ This Webpage was designed as an easy interactive webpage poartfolio designed giv
 ## Preview
 ![](./assets/images/portfolio%20wepbage%20screenshot.png)
 
-![](./assets/images/portfolio%20Code%20Screenshot.png)
+![](./assets/images/portfolio%20syntax-Scrsht.png)
 
 
 ## Deplyed Link
