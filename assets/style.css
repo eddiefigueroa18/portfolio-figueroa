@@ -83,6 +83,10 @@ a{
     color: var(--vscode);
     font-size: 25px;
     padding: 10px;
+    box-shadow: 0 0 0 5px var(--vscode);
+}
+
+.topic-body {
 }
 
 p {
@@ -93,6 +97,7 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
 
@@ -107,12 +112,15 @@ p {
     background-image: url("../assets/images/Selfie.jpg");
     background-size: cover;
     background-position: center;
+    box-shadow:  0 0 10px var(--vscode);
 }
 
 /* this is the backround color of the add topics */
 .article-color {
     background-color: var(--oddtopic);
 }
+
+
 
 .image-links:hover {
     box-shadow: 0 0 5px var(--vscode);
@@ -132,6 +140,26 @@ p {
     justify-content: center;
 }
 
+/* Resume section  */
+.resume-pdf:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    padding: 6px ;
+    margin: 6px;
+    border-radius: 25%;
+}
+
+.resume-pdf {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+    justify-content: center;
+}
+
+
+
 
 /* Contact me section */
 
@@ -139,8 +167,9 @@ p {
     box-shadow: 0 0 5px var(--vscode);
     transition: all 0.3s ease-in-out;
     transform: scale(1.1);
-    padding: 6px;
+    padding: 6px ;
     margin: 6px;
+    border-radius: 25%;
     outline: 2px transparent var(--vscode);
 }
 
@@ -148,7 +177,7 @@ p {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
-    padding: px;
+    padding: 15px;
     margin: 15px;
     justify-content: center;
 }
