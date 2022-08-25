@@ -133,11 +133,36 @@ p {
 }
 
 
+/* Contact me section */
 
-.contacts-body {
-    display: block;
+.contact-links:hover {
+    box-shadow: 0 0 5px var(--vscode);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    padding: 6px;
+    margin: 6px;
+    outline: 2px transparent var(--vscode);
+}
+
+.flex-contact-links {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    padding: px;
+    margin: 15px;
     justify-content: center;
 }
+
+
+
+
+
+
+
+/* .contacts-body {
+    display: block;
+    justify-content: center;
+} */
 
 /* .contacts {
     display: block;
