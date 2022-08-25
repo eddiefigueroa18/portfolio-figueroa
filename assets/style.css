@@ -86,8 +86,6 @@ a{
     box-shadow: 0 0 0 5px var(--vscode);
 }
 
-.topic-body {
-}
 
 p {
     font-size: 16px;
@@ -97,7 +95,7 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 12px;
 }
 
 
@@ -120,7 +118,12 @@ p {
     background-color: var(--oddtopic);
 }
 
-
+.image-title {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow:0 0 1px orangered;
+}
 
 .image-links:hover {
     box-shadow: 0 0 5px var(--vscode);
@@ -128,7 +131,8 @@ p {
     transform: scale(1.1);
     padding: 6px;
     margin: 6px;
-    outline: 2px transparent var(--vscode);
+    outline: 5px transparent var(--vscode);
+    border-radius: 3%;
 }
 
 .flex-image-links {
@@ -141,15 +145,9 @@ p {
 }
 
 /* Resume section  */
-.resume-pdf:hover {
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.1);
-    padding: 6px ;
-    margin: 6px;
-    border-radius: 25%;
-}
 
-.resume-pdf {
+
+.flex-resume-pdf {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
@@ -158,20 +156,19 @@ p {
     justify-content: center;
 }
 
-
-
-
-/* Contact me section */
-
-.contact-links:hover {
+.resume-pdf:hover {
     box-shadow: 0 0 5px var(--vscode);
     transition: all 0.3s ease-in-out;
     transform: scale(1.1);
     padding: 6px ;
     margin: 6px;
-    border-radius: 25%;
+    border-radius: 10%;
     outline: 2px transparent var(--vscode);
 }
+
+
+
+/* Contact me section */
 
 .flex-contact-links {
     display: flex;
@@ -182,6 +179,15 @@ p {
     justify-content: center;
 }
 
+.contact-links:hover {
+    box-shadow: 0 0 5px var(--vscode);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    padding: 6px ;
+    margin: 6px;
+    border-radius: 25%;
+    outline: 2px transparent var(--vscode);
+}
 
 
 
