@@ -66,18 +66,6 @@ a{
     margin: 15px;
 }
 
-
-/* p {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    outline: 2px solid var(--vscode);
-    outline-offset: 2px;
-    color: var(--vscode);
-    text-align: center;
-} */
-
 .topic-header {
     text-align: center;
     color: var(--vscode);
@@ -85,7 +73,6 @@ a{
     padding: 10px;
     box-shadow: 0 0 0 5px var(--vscode);
 }
-
 
 p {
     font-size: 16px;
@@ -97,7 +84,6 @@ p {
     margin-right: auto;
     padding: 12px;
 }
-
 
 .selfie {
     padding: 30px;
@@ -145,8 +131,6 @@ p {
 }
 
 /* Resume section  */
-
-
 .flex-resume-pdf {
     display: flex;
     flex-wrap:wrap;
@@ -166,10 +150,7 @@ p {
     outline: 2px transparent var(--vscode);
 }
 
-
-
 /* Contact me section */
-
 .flex-contact-links {
     display: flex;
     flex-wrap:wrap;
@@ -189,47 +170,13 @@ p {
     outline: 2px transparent var(--vscode);
 }
 
-
-
-
-
-
-/* .contacts-body {
-    display: block;
-    justify-content: center;
-} */
-
-/* .contacts {
-    display: block;
-    color: #252934;
-    justify-content: center;
-} */
-
-/* .contacts ul li{
-    display: block;
-    justify-content: center;
-    color: var(--vscode);
-} */
-
-
-
-/**** fix the contacts and resume empty white space, along with adding tittles to the work images ****/
-
-
-
 .footer-section {
     padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--vscode);
-    color: white;
+    color: var(--body);
     text-align: center;
 }
-
-
-
-
-
-
 
 @media screen and (minwidth: 992px) {
     .flex-image-links {
