@@ -2,7 +2,7 @@
 Personal Portfolio
 
 ## Description 
-This Webpage was designed as an easy interactive webpage poartfolio designed give a glimpse into the life of Eduardo. The motivation for the website was to offer several helping tools in order to navigate the page more efficiently, add aesthetic requirements and overall ease of function. To make the ease of function more efficient, the topics of the page are listed at the top. The webpage offers easily visible image links that can take you to any work, projects or contact information for Eduardo. 
+This Webpage was designed as an easy interactive webpage poartfolio designed to give a glimpse into the life of Eduardo. The motivation for the website was to offer several helping tools in order to navigate the page more efficiently, add aesthetic requirements and overall ease of function. To make the ease of function more efficient, the topics of the page are listed at the top. The webpage offers easily visible image links that can take you to any work, projects or contact information for Eduardo. 
 
 ## Installation
 * Open the (index.html) file in a new window to see web application. 
